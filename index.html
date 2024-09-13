@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperatura no mundo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Previsão do tempo no mundo</h1>
+    </div>
+    <div class="pesquisar">
+      <fieldset>
+        <legend>Escolha um lugar</legend>
+        <input id="lugar-esperado" type="text" />
+      </fieldset>
+      <button onclick="getWeather()">Pesquisar</button>
+    </div>
+    <div class="dados">
+      <div class="temperatura-principal">
+        <p>Temperatura</p>
+        <h2 id="temperatura"></h2>
+      </div>
+      <div class="minima-e-maxima">
+        <div class="card-minima">
+          <p>Mínima</p>
+          <h2 id="minima"></h2>
+        </div>
+
+        <div class="card-maxima">
+          <p>Maxima</p>
+          <h2 id="maxima"></h2>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
