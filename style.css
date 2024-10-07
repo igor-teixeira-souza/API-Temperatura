@@ -107,6 +107,7 @@ button:active{
     align-items: center;
     border-radius: 8px;
     margin-bottom: 10px;
+    background-color: white;
 }
 
 .minima-e-maxima {
@@ -127,6 +128,7 @@ button:active{
     width: 48%;
     padding: 2%;
     border-radius: 3px;
+    background-color: white;
 }
 
 .card-minima {
@@ -137,4 +139,5 @@ button:active{
     width: 48%;
     padding: 2%;
     border-radius: 3px;
+    background-color: white;
 }
